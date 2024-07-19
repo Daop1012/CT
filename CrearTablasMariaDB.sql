@@ -1,6 +1,9 @@
+-- Primero creamos la base de datos y le asignamos los nombres
 create database peliculas_diego;
 use peliculas_diego;
 
+
+-- Creo cada tabla por separado junto a sus llaves primarias y foraneas
 create table Categorias(
 idCategoria int primary key auto_increment,
 categoria_pelicula varchar(15) not null);
